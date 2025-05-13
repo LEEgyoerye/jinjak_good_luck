@@ -451,29 +451,29 @@ const fortunes = [
 괜찮지 않아도 괜찮습니다. 정말로요."
 ];
 document.getElementById('fortune').innerText = fortunes[Math.floor(Math.random() * fortunes.length)];
+# 진작 운세 페이지
+이 파일들을 GitHub Pages에 업로드하면 됩니다.
+
 <!DOCTYPE html>
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>오늘의 운세</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <div class="wrapper">
-        <img src="assets/logo_adjusted.png" class="logo" alt="진작 로고">
+        <img src="./assets/logo_adjusted.png" class="logo" alt="진작 로고">
         <h1>오늘의 운세</h1>
         <div class="card">
-            <p id="fortune">잠시만 기다려 주세요...</p>
+            <p id="fortune">오늘의 운세를 불러오고 있습니다...</p>
         </div>
         <p class="footer">진작이 전하는 오늘의 이야기</p>
     </div>
     <script src="./fortune.js"></script>
 </body>
 </html>
-
-# 진작 운세 페이지
-이 파일들을 GitHub Pages에 업로드하면 됩니다.
 
 body {
     background-color: #000;
