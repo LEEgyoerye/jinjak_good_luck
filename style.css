@@ -1,0 +1,41 @@
+
+body {
+  margin: 0;
+  background-color: #111111;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.box {
+  background-color: #1a1a1a;
+  padding: 50px 30px;
+  border-radius: 20px;
+  max-width: 640px;
+  width: 90%;
+  text-align: center;
+  box-shadow: 0 0 30px rgba(0,0,0,0.4);
+}
+.logo {
+  width: 60px;
+  margin-bottom: 20px;
+}
+.title {
+  font-size: 1.1rem;
+  color: #cccccc;
+  margin-bottom: 30px;
+}
+.fortune-text {
+  color: #f0f0f0;
+  font-size: 1.1rem;
+  line-height: 2;
+  white-space: pre-line;
+  margin-bottom: 40px;
+}
+.footer {
+  font-size: 0.9rem;
+  color: #777777;
+}
