@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>진작 운세</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="fortunes.js"></script>
+</head>
+<body>
+  <div class="layout">
+    <img src="logo.png" alt="진작 로고" class="logo">
+    <p class="title">진작이 전하는 오늘의 운세</p>
+    <div class="fortune"><p id="fortune"></p></div>
+  </div>
+  <script>
+    const fortuneText = document.getElementById('fortune');
+    const randomIndex = Math.floor(Math.random() * fortunes.length);
+    fortuneText.innerText = fortunes[randomIndex];
+  </script>
+</body>
+</html>
